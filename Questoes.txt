@@ -1,0 +1,38 @@
+Q1 - Os serviços são compartilhados entre o cliente e o servidor. O primeiro print é uma referência da instância do objeto myservice do servidor e é acessado por xxxx.root . O cliente ganha acesso remoto aos métodos e atributos exposed utilizando conn.root.nome_método/atributo. 
+Dessa forma o segundo print é o retorno do método get_answer e por último o atributo exposed_the_real_answer_though valor é 43
+
+Q2 - Amanhã
+
+
+Q3 - Não foi possível acessar o método get_question porque a função print não utiliza .root e não consegue acessar as classes/métodos/atributos que podem ser expostos pelo server.py.
+
+Q4 - Colar o código
+
+Q5 - Tempo no servidor  : 4.240529775619507
+     Tempo no client_q5 : 4.309448480606079
+
+Q6 -  Amanhã
+
+Q7 - Amanhã
+
+
+Q8 - 
+      T = 100
+      Tempo no servidor  : 0.04288506507873535
+      Tempo no client_q5 : 0.04522085189819336
+
+      T = 1000
+      Tempo no servidor  : 0.37499523162841797
+      Tempo no client_q5 : 0.37696051597595215
+
+      T = 10000
+      Tempo no servidor  : 4.199761629104614
+      Tempo no client_q5 : 4.203751802444458
+
+      O tempo de processamento cresce "linearmente" em relação ao número de instruções.
+
+Q9 - 
+
+
+
+Q10 - 
